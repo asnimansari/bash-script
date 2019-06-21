@@ -15,7 +15,7 @@ echo "Names : $name1 $name2  $name3"
 
 # Entering data on same line
 # -p flag can be used as a user prompt
-read -p "UserName :" username 
+read -p "UserName :" username
 echo "The User Name is $username"
 
 # -s Flag can be used for passwords where whatever is typed is not show in screen
@@ -28,9 +28,9 @@ echo "Enter Names"
 read -a names
 echo "Names : ${names[0]}, ${names[1]} "
 
-# If we use a read statement without a variable 
+# If we use a read statement without a variable
 # Then the value will go to a  builtin variable called REPLY
 
 echo "Enter Default Value"
-read 
+read
 echo "Value $REPLY"
